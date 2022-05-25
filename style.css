@@ -1,0 +1,51 @@
+* {
+    font-family: 'Gilroy', sans-serif;
+    transition: 0.3s all;
+    font-weight: 600;
+}
+
+#app {
+    margin-top: 80px;
+    width: 400px;
+    box-shadow: 0 3px 15px grey;
+    margin-left: auto;
+    margin-right: auto;
+}
+#headline {
+   
+    background-size: cover;
+    background-position: left;
+}
+input[type="text"] {
+    width: 400px;
+    height: 45px;
+    border: 0;
+    color:black;
+    font-size: 18px;
+    padding: 5px 5px;
+    text-align: right;
+}
+.grid {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+.cell {
+    flex: 33%;
+    height: 80px;
+    font-size: 18px;
+    border: none;
+    
+}
+.num {
+    background-color: #243849;
+    color: #fff;
+    font-weight: 400;
+}
+.cell:hover {
+    background-color: #182530;
+}
+.op {
+    background-color: #ff9900;
+    color: #243849;
+}
